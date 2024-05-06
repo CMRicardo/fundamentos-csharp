@@ -1,1 +1,0 @@
-{"Alcohol":0,"Marca":null,"Nombre":"Cerveza","Cantidad":50}
