@@ -7,7 +7,7 @@ namespace Fundamentos.Services
   public class SendRequest<T> where T : IRequestable
   {
     private readonly HttpClient http = new();
-    public async Task<T> Send(T model)
+    public async Task<T?> Send(T model)
     {
       const string URL = "https://jsonplaceholder.typicode.com/posts";
 

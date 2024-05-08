@@ -2,7 +2,7 @@
 {
   public class Bar
   {
-    public string Nombre { get; set; }
+    public string Nombre { get; set; } = "";
     public List<Cerveza> Cervezas = [];
 
     public Bar(string nombre)
